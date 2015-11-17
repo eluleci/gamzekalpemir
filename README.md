@@ -5,7 +5,7 @@ The app would be more parametrised but I didn't want to optimise and make it mor
 
 ## How to configure
 
-* There are .php files inside **/server** folder. Put them in your server and change the **$DOMAIN** variable to match your server's address.
+* There are .php files inside **/server** folder. Put them in your server and change the **$DOMAIN** variable in **src/search.php** to match your server's address.
 
 * Open **src/MainController.js** and change the **hashTag** and **url** variables to match your servers address.
 
