@@ -8,9 +8,10 @@ error_reporting(-1);
 
 $query = $_GET['q'];
 
-$domain = "http://cengalabs.com/gamzekalpemir/";
-$instagramApi = $domain . "instagramSearch.php?q=".$query;
-$twitterApi = $domain . "twitterSearch.php?q=".$query;
+$DOMAIN = "http://cengalabs.com/gamzekalpemir/";
+
+$instagramApi = $DOMAIN . "instagramSearch.php?q=".$query;
+$twitterApi = $DOMAIN . "twitterSearch.php?q=".$query;
 
 function sksort(&$array, $subkey="id", $sort_ascending=false) {
 
