@@ -1,0 +1,162 @@
+@font-face {
+    font-family: ContentFont;
+    src: url(../fonts/Museo-300.otf);
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000;
+    color: white;
+    font-family: ContentFont;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    /*background: red;*/
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.post {
+    border-radius: 5px;
+    /*box-shadow: 0px 0px 5px #888;*/
+}
+
+.post .image-content {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.post .content {
+    font-size: 26px;
+}
+
+.post .author {
+    margin-top: 60px;
+}
+
+.post .author .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.post .author .icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.post .author .name {
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.post.twitter-post {
+    margin: 5%;
+}
+
+.post.twitter-post.with-image {
+    margin: 10%;
+}
+
+.post.instagram-post {
+    margin: 10%;
+}
+
+.post.instagram-post .content {
+    font-size: 18px;
+}
+
+.post.twitter-post.with-image .content {
+    font-size: 18px;
+}
+
+.post.instagram-post .author {
+    margin-top: 30px;
+}
+
+.post.twitter-post.with-image .author {
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 361px) {
+    #container {
+        width: 80%;
+    }
+
+    .post .content {
+        font-size: 40px;
+    }
+
+    .post.instagram-post .content {
+        font-size: 24px;
+    }
+
+    .post.twitter-post.with-image  .content {
+        font-size: 24px;
+    }
+
+    .post .author .name {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #container {
+        width: 70%;
+    }
+
+    .post .content {
+        font-size: 50px;
+    }
+
+    .post.instagram-post .content {
+        font-size: 24px;
+    }
+
+    .post.twitter-post.with-image  .content {
+        font-size: 24px;
+    }
+
+    .post .author .name {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #container {
+        width: 50%;
+    }
+
+    .post .content {
+        font-size: 50px;
+    }
+
+    .post.twitter-post.with-image .content {
+        font-size: 24px;
+    }
+
+    .post.instagram-post .content {
+        font-size: 24px;
+    }
+
+    .post .author .name {
+        font-size: 30px;
+    }
+}
