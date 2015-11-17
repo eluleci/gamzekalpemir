@@ -1,4 +1,6 @@
-var url = 'http://cengalabs.com/gelberaberasikolalim/search.php?q=gelberaberasikolalim';
+
+var hashTag = 'gamzekalpemir';
+var url = 'http://cengalabs.com/gamzekalpemir/search.php?q=' + hashTag;
 
 var MainController = React.createClass({
 
